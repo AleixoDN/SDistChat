@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "chat",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "C:\\Users\\aleix\\OneDrive\\Documentos\\2021\\sdist\\Chat\\amplify\\backend\\api\\chat\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7,
+      "apiKeyExpirationDate": "2021-12-27T10:17:12.334Z",
+      "keyDescription": ""
+    },
+    "conflictResolution": {
+      "defaultResolutionStrategy": {
+        "type": "AUTOMERGE"
+      }
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "AMAZON_COGNITO_USER_POOLS",
+        "cognitoUserPoolId": "authchat6d511afd"
+      }
+    ]
+  }
+}
